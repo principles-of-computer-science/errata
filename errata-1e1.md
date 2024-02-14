@@ -3,6 +3,9 @@
 Table of Contents Page 3:
 Bibliography 729 => Bibliography 731
 
+Page 141:
+The footnote should say "A left-Riemann sum *over*approximates the area, whereas a right-Riemann sum provides an *under*approximation."
+
 Page 150:
 Figure 5.15: Four Cloclwise Rotations => Figure 5.15: Four Clockwise Rotations
 
