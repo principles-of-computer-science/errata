@@ -9,6 +9,9 @@ The footnote should say "A left-Riemann sum *over*approximates the area, whereas
 Page 150:
 Figure 5.15: Four Cloclwise Rotations => Figure 5.15: Four Clockwise Rotations
 
+Page 162:
+Listing 5.136: The newline and spaces between the two parts of the `symbol` rule should be removed.
+
 Page 313:
 Listing 7.153: should have 60 and 80 swapped.
 
