@@ -4,7 +4,8 @@ Table of Contents Page 3:
 Bibliography 729 => Bibliography 731
 
 Page 69:
-Figure 4.11: The state q2 should not be labeled as a final state. 
+Figure 4.11: The state q2 should not be labeled as a final state.
+
 Credit: Diego Costa
 
 Page 141:
