@@ -31,7 +31,7 @@ Page 477:
 Figure 8.7: Add a space after the `"include"` string.
 
 Page 531:
-Add this as a 5 star exercise. This should also serve as an explanation for why <code>gensym</code> doesn't always work.
+Add this as a 5 star exercise. This should also serve as an explanation for why <code>gensym</code> doesn't always work.<br />
 Unfortunately not all of the problems are resolved with our "semi-hygienic macro" solution. Consider the following macro in our system:
 <pre>
 (define-macro (unhygienic-macro z)
