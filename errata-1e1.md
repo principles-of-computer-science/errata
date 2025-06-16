@@ -30,5 +30,22 @@ Footnote 1 should be on the next page.
 Page 477:
 Figure 8.7: Add a space after the `"include"` string.
 
+Page 531:
+Add this as a 5 star exercise. This should also serve as an explanation for why <code>gensym</code> doesn't always work.
+Unfortunately not all of the problems are resolved with our "semi-hygienic macro" solution. Consider the following macro in our system:
+<pre>
+(define-macro (unhygienic-macro z)
+  (let ([q 100])
+    (set! z (+ q z))))
+</pre>
+
+But then we, sloppily so, redefine <code>set!</code> in our system to be something else outside the macro:
+<pre>
+(define set! +)
+</pre>
+Our macro system is only semi-hygienic for bound variables. Free variables or identifiers can be captured by other definitions outside the macro, and are therefore not hygienic.
+If we wanted the macro to be truly hygienic, then all identifiers/symbols/variables would need to be uninterned. We leave this as a very challenging exercise to the reader.
+
+
 Page 591:
 Listing 9.19: "syscallN the address" => "syscall" 
